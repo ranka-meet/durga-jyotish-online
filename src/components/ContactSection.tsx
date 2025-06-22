@@ -71,6 +71,21 @@ const ContactSection = () => {
                 <p className="text-gray-700 mb-4 leading-relaxed">
                   {address}
                 </p>
+                
+                {/* Google Map */}
+                <div className="mb-4 rounded-lg overflow-hidden border-2 border-gray-200">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.680275975628!2d72.84459697530737!3d19.165467682057695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b719b74f9fb9%3A0x451c216f99492a2f!2sdurga%20jyotish!5e0!3m2!1sen!2snl!4v1750581948112!5m2!1sen!2snl" 
+                    width="100%" 
+                    height="300" 
+                    style={{border: 0}} 
+                    allowFullScreen
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Durga Jyotish Location"
+                  />
+                </div>
+                
                 <Button 
                   variant="outline"
                   className="w-full border-red-400 text-red-600 hover:bg-red-50"
