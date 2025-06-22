@@ -89,14 +89,18 @@ const Hero = () => {
           <div className="flex-1 max-w-md lg:max-w-lg">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-400 to-red-600 rounded-3xl transform rotate-6 opacity-20"></div>
-              <div className="relative bg-white rounded-3xl p-8 shadow-2xl border-4 border-orange-200">
-                <div className="aspect-square bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-8xl mb-4">🙏</div>
-                    <p className="text-lg font-semibold text-gray-700">Pt. Vinod Kumar Joshi</p>
-                    <p className="text-orange-600 font-medium">Traditional Vedic Astrologer</p>
-                    <p className="text-sm text-gray-600 mt-2">60+ Years of Sacred Knowledge</p>
-                  </div>
+              <div className="relative bg-white rounded-3xl p-6 shadow-2xl border-4 border-orange-200">
+                <div className="aspect-square bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/4b70bb20-1501-47bc-89d1-3d9c451026ba.png"
+                    alt="Pt. Vinod Kumar Joshi - Traditional Vedic Astrologer"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="text-center mt-4">
+                  <p className="text-lg font-semibold text-gray-700">Pt. Vinod Kumar Joshi</p>
+                  <p className="text-orange-600 font-medium">Traditional Vedic Astrologer</p>
+                  <p className="text-sm text-gray-600 mt-1">60+ Years of Sacred Knowledge</p>
                 </div>
               </div>
             </div>
