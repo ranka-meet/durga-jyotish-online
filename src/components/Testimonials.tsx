@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 
@@ -111,7 +110,7 @@ const Testimonials = () => {
                 <div className="mt-4 pt-4 border-t border-gray-100">
                   <div className="flex items-center text-sm text-gray-500">
                     <span className="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
-                    Verifie Client
+                    Verified Client
                   </div>
                 </div>
               </CardContent>
