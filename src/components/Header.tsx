@@ -15,8 +15,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo & Brand */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">🕉️</span>
+            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-orange-400">
+              <img 
+                src="/lovable-uploads/8de0992d-2533-4af2-8e9b-ca4547f7a557.png" 
+                alt="Durga Jyotish Logo" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-800">Durga Jyotish</h1>
