@@ -2,11 +2,10 @@
 import { Suspense, lazy } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import TrustIndicators from "@/components/TrustIndicators";
+import ImageCarousel from "@/components/ImageCarousel";
 import ServicesPreview from "@/components/ServicesPreview";
 import AboutSection from "@/components/AboutSection";
 import Testimonials from "@/components/Testimonials";
-import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -18,11 +17,10 @@ const Index = () => {
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50">
         <Header />
         <Hero />
-        <TrustIndicators />
+        <ImageCarousel />
         <ServicesPreview />
         <AboutSection />
         <Testimonials />
-        <FAQSection />
         <ContactSection />
         <Footer />
         <FloatingWhatsApp />

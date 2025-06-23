@@ -7,7 +7,6 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const phoneNumber = "+919833478243";
-  const whatsappMessage = "नमस्ते, मैं ज्योतिष परामर्श के लिए संपर्क कर रहा हूं।";
 
   return (
     <header className="bg-white shadow-lg border-b-4 border-orange-400 sticky top-0 z-50">
@@ -37,20 +36,11 @@ const Header = () => {
             <a href="#contact" className="text-gray-700 hover:text-orange-600 font-medium transition-colors">Contact</a>
           </nav>
 
-          {/* Contact Buttons */}
+          {/* Contact Buttons - Simplified */}
           <div className="hidden md:flex items-center space-x-3">
             <Button 
-              variant="outline" 
               size="sm"
-              onClick={() => window.open(`tel:${phoneNumber}`)}
-              className="border-orange-400 text-orange-600 hover:bg-orange-50"
-            >
-              <Phone className="w-4 h-4 mr-2" />
-              Call Now
-            </Button>
-            <Button 
-              size="sm"
-              onClick={() => window.open(`https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(whatsappMessage)}`)}
+              onClick={() => window.open(`https://wa.me/${phoneNumber.replace('+', '')}?text=नमस्ते, मुझे ज्योतिष परामर्श की जानकारी चाहिए।`)}
               className="bg-green-600 hover:bg-green-700"
             >
               <MessageCircle className="w-4 h-4 mr-2" />
@@ -78,23 +68,14 @@ const Header = () => {
               <a href="#about" className="text-gray-700 hover:text-orange-600 py-2">About</a>
               <a href="#testimonials" className="text-gray-700 hover:text-orange-600 py-2">Testimonials</a>
               <a href="#contact" className="text-gray-700 hover:text-orange-600 py-2">Contact</a>
-              <div className="flex space-x-2 mt-4">
-                <Button 
-                  variant="outline" 
-                  size="sm"
-                  onClick={() => window.open(`tel:${phoneNumber}`)}
-                  className="flex-1 border-orange-400 text-orange-600"
-                >
-                  <Phone className="w-4 h-4 mr-2" />
-                  Call
-                </Button>
+              <div className="mt-4">
                 <Button 
                   size="sm"
-                  onClick={() => window.open(`https://wa.me/${phoneNumber.replace('+', '')}?text=${encodeURIComponent(whatsappMessage)}`)}
-                  className="flex-1 bg-green-600 hover:bg-green-700"
+                  onClick={() => window.open(`https://wa.me/${phoneNumber.replace('+', '')}?text=नमस्ते, मुझे ज्योतिष परामर्श की जानकारी चाहिए।`)}
+                  className="w-full bg-green-600 hover:bg-green-700"
                 >
                   <MessageCircle className="w-4 h-4 mr-2" />
-                  WhatsApp
+                  WhatsApp Consultation
                 </Button>
               </div>
             </div>

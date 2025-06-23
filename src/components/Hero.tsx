@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Phone, MessageCircle, Calendar, Star } from "lucide-react";
+import { MessageCircle, Calendar, Star } from "lucide-react";
 
 const Hero = () => {
   const phoneNumber = "+919833478243";
@@ -10,11 +10,6 @@ const Hero = () => {
     <section id="home" className="relative py-20 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-orange-100 via-red-50 to-yellow-50 opacity-70"></div>
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-orange-500 opacity-5" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f97316' fill-opacity='0.05'%3E%3Cpath d='M30 30c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20zm10 0c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10-10-4.477-10-10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
-        }}></div>
-      </div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -27,10 +22,10 @@ const Hero = () => {
                 <span className="text-2xl lg:text-3xl text-red-700">आपका विश्वसनीय ज्योतिषी</span>
               </h1>
               <p className="text-xl lg:text-2xl text-gray-700 mb-2">
-                Since 1961 | Mumbai's Trusted Astrology & Vastu Expert
+                Since 1961 | Mumbai's Trusted Astrology Expert
               </p>
               <p className="text-lg text-gray-600">
-                60+ Years Experience | 2100+ Satisfied Clients | Hindi Consultation
+                60+ Years Experience | Hindi Consultation | Confidential & Professional
               </p>
             </div>
 
@@ -44,7 +39,7 @@ const Hero = () => {
               <span className="text-gray-600 font-medium">4.9/5 (200+ Reviews)</span>
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Simplified */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Button 
                 size="lg"
@@ -55,33 +50,21 @@ const Hero = () => {
                 Book Consultation ₹2100
               </Button>
               
-              <div className="flex gap-2">
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  onClick={() => window.open(`tel:${phoneNumber}`)}
-                  className="border-orange-400 text-orange-600 hover:bg-orange-50 px-6"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call Now
-                </Button>
-                
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  onClick={() => window.open(`https://wa.me/${phoneNumber.replace('+', '')}?text=नमस्ते, मुझे आपकी सेवाओं के बारे में जानना है।`)}
-                  className="border-green-400 text-green-600 hover:bg-green-50 px-6"
-                >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  WhatsApp
-                </Button>
-              </div>
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open(`https://wa.me/${phoneNumber.replace('+', '')}?text=नमस्ते, मुझे आपकी सेवाओं के बारे में जानना है।`)}
+                className="border-green-400 text-green-600 hover:bg-green-50 px-6"
+              >
+                <MessageCircle className="w-5 h-5 mr-2" />
+                Chat on WhatsApp
+              </Button>
             </div>
 
-            {/* Quick Info */}
+            {/* Quick Info - Simplified */}
             <div className="text-sm text-gray-600 space-y-1">
-              <p>📍 Goregaon (W), Mumbai | 🏠 Home & Office Visits Available</p>
-              <p>💬 All consultations in Hindi | 🔒 Confidential & Professional</p>
+              <p>📍 Goregaon (W), Mumbai | 🏠 Home Visits Available</p>
+              <p>💬 Hindi Consultations | 🔒 100% Confidential</p>
             </div>
           </div>
 
