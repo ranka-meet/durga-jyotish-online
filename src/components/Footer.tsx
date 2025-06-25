@@ -1,3 +1,4 @@
+
 import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
 
 const Footer = () => {
@@ -26,7 +27,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Three generations of trust. Traditional Vedic astrology services in Mumbai. 
-              Pt. Vinod Kumar Joshi brings 60+ years of authentic astrological wisdom 
+              Pt. Vinod Kumar Joshi brings 45+ years of authentic astrological wisdom 
               to guide your life's important decisions.
             </p>
             <div className="flex space-x-4">

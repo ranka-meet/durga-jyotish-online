@@ -56,12 +56,12 @@ const AboutSection = () => {
           {/* Content */}
           <div>
             <h3 className="text-3xl font-bold text-gray-800 mb-6">
-              Six Decades of Sacred Wisdom
+              Four and a Half Decades of Sacred Wisdom
             </h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
                 Since 1961, Pt. Vinod Kumar Joshi has been Mumbai's most trusted name in traditional Vedic astrology. 
-                With over 60 years of dedicated practice, he has guided thousands of families through life's most 
+                With over 45 years of dedicated practice, he has guided thousands of families through life's most 
                 important decisions.
               </p>
               <p>

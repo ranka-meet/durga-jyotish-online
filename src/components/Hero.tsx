@@ -25,7 +25,7 @@ const Hero = () => {
                 Since 1961 | Mumbai's Trusted Astrology Expert
               </p>
               <p className="text-lg text-gray-600">
-                60+ Years Experience | Hindi Consultation | Confidential & Professional
+                45+ Years Experience | Hindi Consultation | Confidential & Professional
               </p>
             </div>
 
@@ -83,7 +83,7 @@ const Hero = () => {
                 <div className="text-center mt-4">
                   <p className="text-lg font-semibold text-gray-700">Pt. Vinod Kumar Joshi</p>
                   <p className="text-orange-600 font-medium">Traditional Vedic Astrologer</p>
-                  <p className="text-sm text-gray-600 mt-1">60+ Years of Sacred Knowledge</p>
+                  <p className="text-sm text-gray-600 mt-1">45+ Years of Sacred Knowledge</p>
                 </div>
               </div>
             </div>
